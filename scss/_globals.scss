@@ -1,8 +1,9 @@
 @import '_variables.scss';
 
-html {
-    font-family: $font-cabin;
-    background: $wg-bg;
+html, body {
+    font-family: $font-cabin, sans-serif;
+    background: $wg-brown;
+    margin: 0;
 }
 
 body {

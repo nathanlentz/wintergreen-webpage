@@ -17,7 +17,7 @@ header {
 
     .container {
         width: 95%;
-        max-width: 1000px;
+        max-width: 1400px;
         margin: 0 auto;
 
         .logo {
@@ -54,7 +54,7 @@ header {
             a {
                 color: $wg-white;
                 display: block;
-                padding: 2em 7em;
+                padding: 2em 5.5em;
                 text-decoration: none;
                 text-transform: uppercase;
                 text-align: center;
@@ -123,19 +123,39 @@ header {
                 background: transparent;
                 position: relative;
                 float: right;
+
                 clip-path: initial;
 
                 li {
                     display: inline-block;
                     border: none;
+                    position: relative;
+                    margin-left: 30px;
+                    height: 100%;
                 }
 
                 a {
                     color: $wg-brown;
                     padding: 0;
-                    margin-left: 30px;
+                    
                     &:hover, &:focus {
                         background: none;                    
+                    }
+
+                    &:before{
+                        content: '';
+                        display: block;
+                        height: 5px;
+                        width: 100%;
+                        background-color: $wg-brown;
+
+                        position: absolute;
+                        top: -33px;
+                        width: 0%;
+                        transition: all ease-in-out 200ms;
+                    }
+                    &:hover::before {
+                        width: 100%;
                     }
                 }
             }

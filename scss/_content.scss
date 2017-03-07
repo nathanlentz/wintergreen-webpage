@@ -1,0 +1,74 @@
+.content {
+    margin-top: 5%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font-gameplay;
+
+    .wg-title-sm {
+        //font-size: 2em;
+        font-size: 3vw;
+    }
+    .wg-title-lg {
+        //font-size: 6em;
+        font-size: 6vw;
+    }
+    .wg-title-md{
+        //font-size: 3em;
+        font-size: 3vw;
+        font-family: $font-cabin;
+    }
+    
+
+    .links {
+        padding-top: 150px;
+    }
+
+    .gh-button {
+        padding-left: 15%;
+    }
+
+    .dl-button {
+        padding-right: 15%;
+    }
+    
+    .nl-button {
+        display: inline-block;
+        width: 150px;
+        padding: 18px;
+        font-size: 1.2em;
+        color: $wg-white;
+        border: 5px solid $wg-white;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+        transition: all ease-in-out 100ms;
+
+        &:hover, &:active {
+            background-color: $wg-white;
+            color: $wg-brown;
+
+        }
+    }
+}
+
+@media(max-width: 549px){
+    .content {
+        .wg-title-sm {
+            font-size: 5vw;
+        }
+        .wg-title-lg {
+            font-size: 8vw;
+        }
+        .wg-title-md {
+            font-size: 4vw;
+        }
+        
+        .links {
+            padding-top: 50px;
+        }
+        .gh-button, .dl-button {
+            padding: 30px 0 0 0 
+        }
+
+    }
+}

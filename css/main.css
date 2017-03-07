@@ -531,8 +531,9 @@ header {
   .dev-panel .third {
     margin-top: 150px; }
 
-@media (max-width: 549px) {
-  margin-top: 15px; }
+@media (max-width: 999px) {
+  .dev-panel {
+    display: none; } }
 
 .content {
   margin-top: 5%;
@@ -589,3 +590,7 @@ header {
   position: fixed;
   bottom: -80px;
   right: 1px; }
+
+@media (min-width: 400px) {
+  .fixed-mountains {
+    display: none; } }

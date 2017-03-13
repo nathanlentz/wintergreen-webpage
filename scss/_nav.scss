@@ -154,6 +154,7 @@ header {
                         width: 0%;
                         transition: all ease-in-out 200ms;
                     }
+                
                     &:hover::before {
                         width: 100%;
                     }

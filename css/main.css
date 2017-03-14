@@ -589,13 +589,15 @@ header {
 .fixed-mountains {
   position: fixed;
   bottom: -80px;
-  right: 1px; }
+  right: 1px;
+  z-index: -100; }
 
 .full-fixed-mountains {
   position: fixed;
   bottom: -50px;
   right: 1px;
-  width: 100%; }
+  width: 100%;
+  z-index: -100; }
 
 @media (max-width: 1366px) {
   .full-fixed-mountains {

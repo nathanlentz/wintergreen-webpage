@@ -42,6 +42,7 @@
         outline: none;
         text-decoration: none;
         transition: all ease-in-out 100ms;
+        z-index: 100;
 
         &:hover, &:active {
             background-color: $wg-white;

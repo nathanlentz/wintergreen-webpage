@@ -1,5 +1,6 @@
 .fixed-mountains{
     position: fixed;
+    margin-top: 20px;
     bottom: -80px;
     right: 1px;
 }
@@ -9,6 +10,7 @@
     bottom: -80px;
     right: 1px;
     width: 100%;
+    z-index: -1;
 }
 
 @media(max-width: 1366px){

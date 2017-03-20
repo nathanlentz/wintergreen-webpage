@@ -563,7 +563,8 @@ header {
     text-align: center;
     outline: none;
     text-decoration: none;
-    transition: all ease-in-out 100ms; }
+    transition: all ease-in-out 100ms;
+    z-index: 100; }
     .content .nl-button:hover, .content .nl-button:active {
       background-color: #fffaf1;
       color: #4b4541; }
@@ -588,16 +589,16 @@ header {
 
 .fixed-mountains {
   position: fixed;
+  margin-top: 20px;
   bottom: -80px;
-  right: 1px;
-  z-index: -100; }
+  right: 1px; }
 
 .full-fixed-mountains {
   position: fixed;
-  bottom: -50px;
+  bottom: -80px;
   right: 1px;
   width: 100%;
-  z-index: -100; }
+  z-index: -1; }
 
 @media (max-width: 1366px) {
   .full-fixed-mountains {

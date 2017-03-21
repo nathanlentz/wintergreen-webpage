@@ -2,7 +2,7 @@
 Webpage built to advertise Project Wintergreen.
 
 
-## Develop Instructions
+## Developer Instructions
 
 To run this site locally, clone the repository cd into the project directory
 
